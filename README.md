@@ -18,9 +18,30 @@ Projeto BackEnd InstaBytes é uma aplicação backend node com o suporte do Goog
 # Tecnologias utilizadas
 ## Back end
 
-- <img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" title = "Node JS" /> Node JS : versão 22.11.0;
-- <img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"  title = "VS Code"/> VS Code: IDEA usada durante a imersão backend.
+- <img width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" title = "Node JS" /> Node JS : versão 22.11.0;
+- <img width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"  title = "VS Code"/> VS Code: IDEA usada durante a imersão backend.
+- <img width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" title = "Mongo DB" /> Mongo DB: Banco de dados usado na nuvem.
 
+# Como executar o projeto
+
+## Back end
+Pré-requisitos: Instalação do Node.JS e IDEA: VSCode
+
+```bash
+# clonar repositório
+git clone https://github.com/marcosfshirafuchi/dslist.git
+
+# Comando para instalar 
+npm init es6 -y
+npm install express
+
+# Comando para executar o programa(Neste caso, precisar apertar (ctrl + C) para sair da execução do programa, salva as alterações do código e precisa executar de novo o comando por causa das alterações)
+node server.js
+
+# Comando para executar o programa com alterações do código depois salvo(Neste caso, não precisa executar de novo o comando por causa das alterações)
+node --watch server.js
+
+```
 
 
 
