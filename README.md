@@ -29,7 +29,7 @@ Pré-requisitos: Instalação do Node.JS e IDEA: VSCode
 
 ```bash
 # clonar repositório
-git clone https://github.com/marcosfshirafuchi/dslist.git
+git clone https://github.com/marcosfshirafuchi/Alura-backend-instabytes.git
 
 # Comando para instalar 
 npm init es6 -y
