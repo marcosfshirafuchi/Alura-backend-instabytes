@@ -21,6 +21,7 @@ Projeto BackEnd InstaBytes é uma aplicação backend node com o suporte do Goog
 - <img width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" title = "Node JS" /> Node JS : versão 22.11.0;
 - <img width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"  title = "VS Code"/> VS Code: IDEA usada durante a imersão backend.
 - <img width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" title = "Mongo DB" /> Mongo DB: Banco de dados usado na nuvem.
+- <img width="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original-wordmark.svg" title = "Postman"/> Postman: Usado para testar os serviço do Backend.
 
 # Como executar o projeto
 
@@ -41,8 +42,39 @@ node server.js
 # Comando para executar o programa com alterações do código depois salvo(Neste caso, não precisa executar de novo o comando por causa das alterações)
 node --watch server.js
 
-```
+# Instalar o multer
+npm install multer
 
+# Instalar o Google Gemini
+npm i @google/generative-ai
+
+# Instalar o cors
+npm i cors
+
+# Instalar dotenv
+npm install dotenv
+
+```
+Serviços do backEnd para testar no Postman:
+
+```
+# Método GET - URL
+http://localhost:3000/posts
+
+# Método POST - URL
+http://localhost:3000/upload
+
+#Colocar foto no método POST
+Clique em form-data -> Na coluna KEY, escolha File e digite o nome no campo -> Na coluna VALUE, selecione a imagem do computador
+
+# Método PUT - URL
+http://localhost:3000/upload/id(O id gerado pelo método post)
+
+# Body do PUT
+{
+    "alt":"Foto da cidade de  veneza"
+}
+```
 
 
 # Autor
